@@ -3,7 +3,7 @@ Projeto para estudar a utilização no redis em aplicações Spring com o banco 
 
 # Requisitos
 
-Projeto desenvolvidod em ambiente Windows
+Projeto desenvolvido em ambiente Windows
 
 Para rodar a imagem com o Redis é necessário ter instalado em seu computador o Docker pelo link:  https://www.docker.com/
 
