@@ -1,4 +1,4 @@
-package br.com.emmanuelneri.model;
+package br.com.viniciusmargotti.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

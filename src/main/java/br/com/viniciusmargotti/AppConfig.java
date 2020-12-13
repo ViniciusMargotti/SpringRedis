@@ -1,4 +1,4 @@
-package br.com.emmanuelneri;
+package br.com.viniciusmargotti;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

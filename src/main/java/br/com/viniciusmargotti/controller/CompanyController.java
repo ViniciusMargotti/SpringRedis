@@ -1,7 +1,7 @@
-package br.com.emmanuelneri.controller;
+package br.com.viniciusmargotti.controller;
 
-import br.com.emmanuelneri.model.Company;
-import br.com.emmanuelneri.service.CompanyService;
+import br.com.viniciusmargotti.model.Company;
+import br.com.viniciusmargotti.service.CompanyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

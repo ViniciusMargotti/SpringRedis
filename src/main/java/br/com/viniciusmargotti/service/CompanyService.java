@@ -1,8 +1,8 @@
-package br.com.emmanuelneri.service;
+package br.com.viniciusmargotti.service;
 
-import br.com.emmanuelneri.controller.exceptions.EntityNotFoundException;
-import br.com.emmanuelneri.model.Company;
-import br.com.emmanuelneri.repository.CompanyRepository;
+import br.com.viniciusmargotti.controller.exceptions.EntityNotFoundException;
+import br.com.viniciusmargotti.model.Company;
+import br.com.viniciusmargotti.repository.CompanyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
