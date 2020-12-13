@@ -21,7 +21,9 @@ e entre eles deve ter o Redis como mostrado na imagem abaixo:
 <img src='containercriado.png'>
 
 # Como funciona o projeto
-Após as configurações, o projeto está pronto para utilizar cache com Redis, para isso, assim nas camadas de serviço é possibilitado maior reaproveitamento dos caches, onde podem ser chamados através de endpoints (Controllers) ou por outros serviços locais. exemplo: Existem 3 company cadastrados no banco de dados H2, assim que for realizado a primeira requisição a aplicação irá efetuar a busca no banco de dados e disponibilizar esses dados em Cache, para que em futuras consultas caso exista um Cache válido não seja necessário realizar uma nova busca no banco de dados. A cada interação de inserção ou deleção é alterado o status do cache para que seja novamente necessário buscar os dados no banco de dados.
+Após as configurações, o projeto está pronto para utilizar cache com Redis, para isso, assim nas camadas de serviço é possibilitado maior reaproveitamento dos caches, onde podem ser chamados através de endpoints (Controllers) ou por outros serviços locais.
+
+Exemplo: Existem 3 companys cadastradas no banco de dados H2, assim que for realizado a primeira requisição a aplicação irá efetuar a busca no banco de dados H2 e disponibilizar esses dados em Cache, para que em futuras consultas caso exista um Cache válido não seja necessário realizar uma nova busca no banco de dados. A cada interação de insert/update/delete é alterado o status do cache para que seja novamente necessário buscar os dados no banco de dados.
 
 # Requisições para efetuar testes
 curl -s http://localhost:8080/company \
